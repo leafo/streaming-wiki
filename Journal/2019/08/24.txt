@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-24T13:11:56-07:00
+
+====== Saturday 24 Aug 2019 ======
+
+
+
+[*] convert bot to cqueues
+	[ ] figure out how to handle errors better
+	[ ] remove dead code
+[*] enable the stats extension to record stats about users in chat
+	[*] set up postgres to use cqueues for queries
+	[ ] queries are no running in parallel

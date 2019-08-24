@@ -10,16 +10,16 @@ Creation-Date: 2019-08-23T14:40:50-07:00
 [*] fix the oauth token passing
 [*] learn about some capabilities, tags: https://dev.twitch.tv/docs/irc/tags/
 [*] add a !today command
-	[ ] !equip
+	[x] !equip
 	[*] !moonscript
 	[*] !language
 	[*] !faq
 	[*] !linux
-	[ ] !beard
-	[ ] !burst (!tada)
+	[x] !beard
+	[x] !burst (!tada) 
 	[*] !itch
 	[*] !editor
 	[*] !help (!commands)
-	[ ] !rules
+	[x] !rules
 	[ ] !uptime
 	[ ] !drink

@@ -6,4 +6,28 @@ Creation-Date: 2019-08-23T14:35:21-07:00
 Created Friday 23 August 2019
 
 
+===== saltw-bot =====
 * Add class hot loading to bot
+* Make the stats extension work
+* Add database integration
+	* Stats about users on chat
+	* Setting !today, !drink, and other command responses
+* Add webserver into the bot for configuration
+	* Use Lapis (cqueues mode)
+* Fix message parsing, get tags out from the Twitch CAP
+* Add Twitch API
+	* !uptime command
+	* using lua-http to make http requests to twitch api
+	* write twitch api client
+* Add more goofy commands
+	* !tada - MIDI command
+	* Some kind text to ''speepgch''
+	* More informational stuff
+* Twitch extension
+	* iframe on top of player: we can reuse the webserver on the bot to show something
+
+===== On screen stuff =====
+* Use browser source with web server running in bot
+* Use window source (with chroma key) to have some program show animations
+	* Love2d 
+* investigate OBS plugin 

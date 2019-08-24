@@ -5,5 +5,6 @@ Creation-Date: 2019-08-23T15:53:49-07:00
 ====== TODO ======
 Created Friday 23 August 2019
 
-[ ] write rules
-[ ] add sections with relevant info
+[*] write rules
+[*] add sections with relevant info
+[ ] add docs to lapis about cqueues/lua-http support

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-23T13:18:15-07:00
+
+====== Home ======
+Created Friday 23 August 2019
+
+
+
+===== Question =====
+* What is my window manager
+	* Awesome
+* What is my operating system
+	* Linux (Archlinux)
+* What is [[MoonScript]]
+	* Programming language I made
+	* Why did you make it
+* What is my camera/microphone/headphones

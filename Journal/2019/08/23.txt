@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-23T14:40:50-07:00
+
+====== Friday 23 Aug 2019 ======
+
+
+[*] check out the irc bot
+[*] look over some of the code
+[*] fix the oauth token passing
+[*] learn about some capabilities, tags: https://dev.twitch.tv/docs/irc/tags/
+[*] add a !today command
+	[ ] !equip
+	[*] !moonscript
+	[*] !language
+	[*] !faq
+	[*] !linux
+	[ ] !beard
+	[ ] !burst (!tada)
+	[*] !itch
+	[*] !editor
+	[*] !help (!commands)
+	[ ] !rules
+	[ ] !uptime
+	[ ] !drink

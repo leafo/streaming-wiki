@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-23T14:35:21-07:00
+
+====== Future Projects ======
+Created Friday 23 August 2019
+
+
+* Add class hot loading to bot

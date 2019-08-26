@@ -11,4 +11,5 @@ Creation-Date: 2019-08-24T13:11:56-07:00
 	[ ] remove dead code
 [*] enable the stats extension to record stats about users in chat
 	[*] set up postgres to use cqueues for queries
-	[ ] queries are no running in parallel
+	[*] queries are no running in parallel
+		* queries are blocked by the single connection to the database, and that's okay for now

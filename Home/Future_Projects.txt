@@ -8,13 +8,14 @@ Created Friday 23 August 2019
 
 ===== saltw-bot =====
 * Add class hot loading to bot
-* Make the stats extension work
+[*] Make the stats extension work
+	[ ] we need a way to view the stats
 * Add database integration
 	* Stats about users on chat
 	* Setting !today, !drink, and other command responses
 * Add webserver into the bot for configuration
 	* Use Lapis (cqueues mode)
-* Fix message parsing, get tags out from the Twitch CAP
+[*] Fix message parsing, get tags out from ''the'' Twitch CAP
 * Add Twitch API
 	* !uptime command
 	* using lua-http to make http requests to twitch api
@@ -26,8 +27,17 @@ Created Friday 23 August 2019
 * Twitch extension
 	* iframe on top of player: we can reuse the webserver on the bot to show something
 
+===== Bot commands =====
+[ ] !today — up to date from databasem
+[ ] !uptime
+[ ] !drink
+[ ] !randomgame — pull random game from itchio randomizer
+
+
+
 ===== On screen stuff =====
 * Use browser source with web server running in bot
 * Use window source (with chroma key) to have some program show animations
 	* Love2d 
+		* https://love2d.org/wiki/Data:getPointer
 * investigate OBS plugin 

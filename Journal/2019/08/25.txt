@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-25T15:25:20-07:00
+
+====== Sunday 25 Aug 2019 ======
+
+
+[*] we upgraded old queries to upsert
+[*] write lpeg parser for messages

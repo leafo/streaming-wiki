@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-26T14:15:52-07:00
+
+====== Monday 26 Aug 2019 ======
+
+
+[*] add web server to irc bot
+[*] make it run lapis
+[*] add stats page
+[*] add points system
+	[*] create db model for points table
+	[*] show on stats page
+	[*] add point logs page
+	[*] add form to give points from stats

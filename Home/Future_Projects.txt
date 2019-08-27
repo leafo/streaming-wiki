@@ -7,14 +7,19 @@ Created Friday 23 August 2019
 
 
 ===== saltw-bot =====
-* Add class hot loading to bot
+[*] Add class hot loading
+	[*] works for views, extensions (with bind), and any other basic class modules
+	[ ] make work for app class
 [*] Make the stats extension work
-	[ ] we need a way to view the stats
-* Add database integration
-	* Stats about users on chat
-	* Setting !today, !drink, and other command responses
-* Add webserver into the bot for configuration
-	* Use Lapis (cqueues mode)
+	[*] we need a way to view the stats
+	[ ] we need a way to publicly view the stats (add password protection first)
+[*] Add database integration
+	[*] Stats about users on chat
+		[*] table for points
+	[ ] Setting !today, !drink, and other command responses
+[*] Add webserver into the bot for configuration
+	[*] Use Lapis (cqueues mode)
+	[ ] password protect host pages
 [*] Fix message parsing, get tags out from ''the'' Twitch CAP
 * Add Twitch API
 	* !uptime command
@@ -26,18 +31,27 @@ Created Friday 23 August 2019
 	* More informational stuff
 * Twitch extension
 	* iframe on top of player: we can reuse the webserver on the bot to show something
+* make emotes work
+	* use the id from the irc message command
+	* insert ID into this URL: https://static-cdn.jtvnw.net/emoticons/v1/425618/3.0
+	* support BTTV emotes
+		* https://api.betterttv.net/2/emotes
+	* FFZ: https://www.frankerfacez.com/developers
+* track viewers: http://tmi.twitch.tv/group/user/moonscript/chatters
+	* give points to chatters every hour when someone has chatted in the past hour
 
 ===== Bot commands =====
-[ ] !today — up to date from databasem
+[ ] !today — up to date from database
 [ ] !uptime
 [ ] !drink
 [ ] !randomgame — pull random game from itchio randomizer
-
-
+[*] !faq
+[*] !github
+[ ] !poll — (and respective response functions)
 
 ===== On screen stuff =====
 * Use browser source with web server running in bot
 * Use window source (with chroma key) to have some program show animations
-	* Love2d 
-		* https://love2d.org/wiki/Data:getPointer
+* Love2d — screen capture in engine
+	* https://love2d.org/wiki/Data:getPointer
 * investigate OBS plugin 

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-27T14:20:27-07:00
+
+====== Tuesday 27 Aug 2019 ======
+ 
+
+[*] relearned how to use the inotify library for lua
+[*] we added hotloader class that watches all directories in the project
+	[*] added support for adding new directories ad they're added
+[*] hotload a class
+	[*] replace instance methods on class -> class module replacements

@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-13T13:32:07-07:00
+
+====== Friday 13 Sep 2019 ======
+
+
+[*] updated lapis with ''app_only'' code cache
+	[*] made bot reload app class on requests
+[*] test suite
+	[*] create workflow for github actions
+[*] fix crashing bug when reloader can't handle file
+[*] added basic twitch api client
+	[*] added get_chatters endpoint
+[*] added !makeitrain
+[*] added twitch api client
+	[*] added get_chatters
+	[*] added get_streams
+	[*] added http request logging
+[*] added !uptime command
+[*] fixed bug with reloader when trying to reload module that isn't loaded yet
+[*] added layout for views

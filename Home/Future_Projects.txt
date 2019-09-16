@@ -6,41 +6,19 @@ Creation-Date: 2019-08-23T14:35:21-07:00
 Created Friday 23 August 2019
 
 
-**next stream: clean out things that are done here vv**
-
 ===== saltw-bot =====
-[*] Add class hot loading
-	[*] works for views, extensions (with bind), and any other basic class modules
-	[*] make work for app class
-[*] Make the stats extension work
-	[*] we need a way to view the stats
-	[ ] we need a way to publicly view the stats (add password protection first)
-[*] Add database integration
-	[*] Stats about users on chat
-		[*] table for points
-	[ ] Setting !today, !drink, and other command responses
-[*] Add webserver into the bot for configuration
-	[*] Use Lapis (cqueues mode)
-	[ ] password protect host pages
-[*] Fix message parsing, get tags out from ''the'' Twitch CAP
-[ ] Test the test suite
-	[*] get the test suite running on github actions
-		* need to find a way to test database stuff (postgres on github actions)
-		* slnunicode module doesn't build on gh-actions
-* Add Twitch API
-	[*] added tmi.twitch.tv for listing chatters
-	[*] added new twitch api support with oauth authentication
-	[*] !uptime command
-	[*] using lua-http to make http requests to twitch api
-	[*] write twitch api client
-* add ui to make bladderx speak
+[ ] add password protection to sensitive parts of the bot web interface
+	[ ] adding points system
+[ ] fix test suite
+	[ ] need to find a way to test database stuff (postgres on github actions)
+	[ ] slnunicode module doesn't build on gh-actions
 * Add more goofy commands
 	* !tada - MIDI command
 	* Some kind text to ''speepgch''
 	* More informational stuff
 * Twitch extension
 	* iframe on top of player: we can reuse the webserver on the bot to show something
-* make emotes work
+* make emotes work inside of web views
 	* use the id from the irc message command
 	* insert ID into this URL: https://static-cdn.jtvnw.net/emoticons/v1/425618/3.0
 	* support BTTV emotes

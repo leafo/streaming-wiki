@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-15T14:06:23-07:00
+
+====== Sunday 15 Sep 2019 ======
+
+
+* added better layout to web interface
+	* navigation bar
+* added tableshape based input validation
+* added ''/speak'' page
+* added ''/commands'' page
+	* added support for creating simple and callback commands
+	* added command edit mode
+	* secret commands
+	* delete commands
+* refactor all commands into new commands model
+	* commands are now case insensitive
+* !followage command 
+	* added get followers endpoint to twitch client

@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-20T13:26:56-07:00
+
+====== Friday 20 Sep 2019 ======
+ 
+
+* clean up speak page redirect
+* track all chat messages into database
+* fix random message from stats table
+* don't let the bot crash if a message handler crashes
+* fix hotloader to work with the irc.moon module
+	* works for all modules that contain a table of classes
+* hotloader should set filename when loading code so traces are correct
+* added follow tracking, and last_followed event
+* added bits thank you message (parsed from irc tags)
+* added bot game using love 2d
+	* two teams
+	* chat can move boxes around
+	* boxes can attack and gain points
+* ran a poll about what to work on during stream: https://www.strawpoll.me/18670732/r

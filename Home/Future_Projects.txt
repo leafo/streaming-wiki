@@ -14,8 +14,12 @@ Created Friday 23 August 2019
 	[ ] slnunicode module doesn't build on gh-actions
 * Add more goofy commands
 	* !tada - MIDI command
-	* Some kind text to ''speepgch''
+	* Some kind text to ''speech''
 	* More informational stuff
+* switch css to scss
+* add cron-job like chat messages
+* track subscription events into database
+	* need an oauth token that works for fetching subscribers
 * Twitch extension
 	* iframe on top of player: we can reuse the webserver on the bot to show something
 * make emotes work inside of web views
